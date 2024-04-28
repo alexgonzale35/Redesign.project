@@ -100,10 +100,7 @@
     }
 
     
-    .header h2 {
-        margin: 0;
-        color: #333;
-    }
+ 
 
     /* Navigation Styles */
 
@@ -736,6 +733,7 @@ footer{
     padding:70px 30px 20px;
 }
 .socialIcons{
+    padding-left: 20px;
     display: flex;
     justify-content: left;
 }
@@ -751,7 +749,11 @@ footer{
 /*end of footer*/
 
 .contact{
-    padding-left:20px;
+    padding-left:30px;
+    padding-top:0;
+}
+.contact .h4{
+    padding-top:0;
 }
 
 
@@ -794,5 +796,14 @@ footer{
 }
 
 
+
 /* End of Grid System */
+
     
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
