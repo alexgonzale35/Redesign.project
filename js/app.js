@@ -35,3 +35,26 @@ document.addEventListener('DOMContentLoaded', () => {
     reportWindowSize();
     window.onresize = reportWindowSize;
 });
+
+document.querySelectorAll('.money').forEach(function(item) {
+    item.addEventListener('click', function() {
+        // Remove 'selected' class from all elements
+        document.querySelectorAll('.money').forEach(function(el) {
+            el.classList.remove('selected');
+        });
+        // Add 'selected' class to the clicked element
+        item.classList.add('selected');
+    });
+});
+
+document.querySelectorAll('.time span').forEach(function(item) {
+    item.addEventListener('click', function() {
+        // Remove 'selected' class from all elements
+        document.querySelectorAll('.time span').forEach(function(el) {
+            el.classList.remove('selected');
+        });
+        // Add 'selected' class to the clicked element
+        item.classList.add('selected');
+    });
+});
+

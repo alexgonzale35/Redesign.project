@@ -891,46 +891,66 @@ body {
     color: #5c6585c4;
 }
 
-.time{
-    margin-top:3%;
-    display:grid;
+
+.time {
+    margin-top: 3%;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    padding:4%;
-    background-color: #007bff;
+    padding: 4%;
+    background-color: #e4e4e4;
     border-radius: 10px;
 }
-.time span:first-child{
+
+.time span {
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    padding: 4%;
+    padding-left: 30%;
+    cursor: pointer;
+}
+
+.time span.selected {
+    background-color: #007bff;
+    color: #fff;
+}
+.time span:hover{
     padding:4%;
     padding-left:30%;
-    background-color: #999999;
+    background-color:#dadada;
     border-radius: 10px;
-}
-.time span{
-    padding-left:25%;
-    cursor:pointer;
 }
 p:nth-child(3){
     margin-top:5%;
     font-size:16px;
     font-weight:600;
 }
-.value{
-    width:100%;
-    margin-top:2%;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-    grid-gap:10px;
+
+.value {
+    width: 100%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
 }
-.money{
-    border:2px solid rgb(157, 156, 197);
-    border-radius: 7px;
-    font-weight: 600;
-    padding-left: 30%;
-    cursor:pointer;
-}
+
 .money:hover{
-    background-color:#1d1d1d;
-    color:#999999;
+    background-color:#d4d4d4;
+    color:#999999bb;
+}
+
+.money {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.money.selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
 }
 .confirm{
     margin-top:5%;
@@ -945,8 +965,4 @@ p:nth-child(3){
     padding-left:10px;
     font-size:15px;
     border-radius: 5px;
-}
-p:nth-child(7){
-    margin-top:10px;
-    color:pink;
 }
