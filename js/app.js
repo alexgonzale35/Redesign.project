@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 });
 
-// Screen size snippet
+
 const reportWindowSize = () => {
     const width = window.innerWidth;
     const height = window.innerHeight;
@@ -27,34 +27,34 @@ const reportWindowSize = () => {
 }
 
 
-/* 
-    * Ensure that the DOM is loaded before running
-    * the functions inside
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
     reportWindowSize();
     window.onresize = reportWindowSize;
 });
 
+
+
+
+
 document.querySelectorAll('.money').forEach(function(item) {
     item.addEventListener('click', function() {
-        // Remove 'selected' class from all elements
         document.querySelectorAll('.money').forEach(function(el) {
             el.classList.remove('selected');
         });
-        // Add 'selected' class to the clicked element
         item.classList.add('selected');
     });
 });
 
 document.querySelectorAll('.time span').forEach(function(item) {
     item.addEventListener('click', function() {
-        // Remove 'selected' class from all elements
         document.querySelectorAll('.time span').forEach(function(el) {
             el.classList.remove('selected');
         });
-        // Add 'selected' class to the clicked element
         item.classList.add('selected');
     });
 });
+
+
+
 

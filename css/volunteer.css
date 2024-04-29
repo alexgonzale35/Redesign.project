@@ -222,6 +222,8 @@
     white-space: nowrap;
     border-width: 0;
 }
+
+/* End of Navigation Styles */
 .btn-primary{
     text-decoration: none;
     background-color: aquamarine;
@@ -231,6 +233,9 @@
 }
 
 /* End of Navigation Styles */
+
+
+
 /* Branding */
 .swatch {
     aspect-ratio: 1;
@@ -966,3 +971,6 @@ p:nth-child(3){
     font-size:15px;
     border-radius: 5px;
 }
+
+
+
