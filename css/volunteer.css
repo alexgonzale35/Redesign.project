@@ -972,5 +972,33 @@ p:nth-child(3){
     border-radius: 5px;
 }
 
+.error{
+    margin-top:10%;
+    margin-left:15%;
+}
+
+.error h1{
+    font-size:80px;
+    color: #7585af;
+}
+
+.error4{
+    margin-top:10%;
+}
+
+.error4 p{
+    margin-left:20%;
+}
+
+.error4 h1{
+    font-size:80px;
+    text-align: center;
+    color: #7585af;
+}
+.img4{
+    margin-left:350px;
+}
+
+
 
 
