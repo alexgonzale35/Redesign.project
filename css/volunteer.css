@@ -1005,10 +1005,18 @@ p:nth-child(3){
 .success{
     color:rgb(66, 187, 66);
 }
+.check img{
+    width:30%;
+    margin-left:25%;
+}
 
 .event-program{
     margin-top:40%;
 }
+.button404{
+    margin-left:45%;
+}
+ 
 
 
 
