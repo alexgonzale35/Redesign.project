@@ -214,6 +214,11 @@ img {
     padding:.5em .5em;
     box-shadow:10px 15px 10px rgba(49, 49, 49, .2);
 }
+.btn-secondary{
+    border-radius: 1em;
+    padding:.5em .5em;
+    box-shadow:10px 15px 10px rgba(49, 49, 49, .2);
+}
 .divider {
     display: flex;
     width: 60%;
@@ -223,6 +228,11 @@ img {
     margin-left: auto;
     padding-top:5%;
 }
+
+.labor{
+    margin-top: 60px;
+    margin-bottom:60px
+} 
 
 .icons h1 {
     text-align: center; 

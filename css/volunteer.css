@@ -231,7 +231,11 @@
     padding:.5em .5em;
     box-shadow:10px 15px 10px rgba(49, 49, 49, .2);
 }
-
+.btn-secondary{
+    border-radius: 1em;
+    padding:.5em .5em;
+    box-shadow:10px 15px 10px rgba(49, 49, 49, .2);
+}
 /* End of Navigation Styles */
 
 
@@ -1042,11 +1046,22 @@ p:nth-child(3){
     background-color: #ffffff;
 }
 .card-title{
+    margin-top: 7%;
     font-weight: bold;
     font-size:1.5em;
 }
 
- 
+ .donation-links img{
+    width:50%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+ }
+
+ .donate-contact{
+    text-align: center;
+ }
+
 
 
 
