@@ -1014,6 +1014,12 @@ p:nth-child(3){
 }
 
 
+.partner img{
+    width:40%;
+    margin-top:20%;
+}
+
+
 .event1{
     margin-top:40%;
 }
@@ -1023,6 +1029,21 @@ p:nth-child(3){
 .event-button{
     margin-top:40px;
     text-align: center;
+}
+
+
+.card{
+    margin-top: 50px;
+    padding: 1.5em ;
+    width: 100%;
+    text-align:center;
+    border-radius: 2em;
+    box-shadow:10px 15px 10px rgba(49, 49, 49, .2);
+    background-color: #ffffff;
+}
+.card-title{
+    font-weight: bold;
+    font-size:1.5em;
 }
 
  
