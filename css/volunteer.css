@@ -985,19 +985,15 @@ p:nth-child(3){
 .error4{
     margin-top:10%;
 }
-
-.error4 p{
-    margin-left:20%;
+.errorp{
+    text-align: center;
 }
-
 .error4 h1{
     font-size:80px;
     text-align: center;
     color: #7585af;
 }
-.img4{
-    margin-left:350px;
-}
+
 
 .text-error{
     color:red;
@@ -1016,6 +1012,19 @@ p:nth-child(3){
 .button404{
     margin-left:45%;
 }
+
+
+.event1{
+    margin-top:40%;
+}
+.event-img{
+    margin-top:20%;
+}
+.event-button{
+    margin-top:40px;
+    text-align: center;
+}
+
  
 
 
