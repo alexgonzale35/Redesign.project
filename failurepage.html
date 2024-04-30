@@ -68,7 +68,7 @@
             </div>
 
             <div class="col-xs-12 col-md-12 col-lg-6">
-                <h1>Contact Us</h1>  
+                <h1>Contact <span>Us</span></h1>  
 
             <form
                 method="post" action="registration.php"  name="registration">
@@ -77,6 +77,7 @@
                         <label for="Name" class="col-sm-12 col-md-6 col-form-label">First Name:</label>
                             <div class="col-sm-10">
                                 <input type="text" name="Name" id="Name" class="form-control" required placeholder="John Doe" />
+                                <p class="text-error">*This field is required*</p>
                             </div>
                     </div>
 
@@ -84,6 +85,7 @@
                         <label for="Email" class="col-sm-12 col-md-6 col-form-label">Email:</label>
                             <div class="col-sm-10">
                                 <input type="text" name="Email" id="Email" class="form-control" required placeholder="user@email.com"/>
+                                <p class="text-error">*This field is required*</p>
                             </div>
                     </div>
 
@@ -91,6 +93,7 @@
                         <label for="Subject" class="col-sm-12 col-md-6 col-form-label">Subject:</label>
                             <div class="col-sm-10">
                                 <input type="text" name="Subject" id="Subject" class="form-control" required placeholder="reason to connect" />
+                                <p class="text-error">*This field is required*</p>
                             </div>
                     </div>
 
@@ -98,6 +101,7 @@
                         <label for="Message" class="col-sm-12 col-md-6 col-form-label">Message:</label>
                             <div class="col-sm-10">
                                 <textarea name="text" id="mesaage" class="form-control" required placeholder="message"></textarea>
+                                <p class="text-error">*This field is required*</p>
                             </div>
                     </div>
                         <input type="submit" name="submit" id="submit" value="Send Message" class="btn btn-primary">
