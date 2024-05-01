@@ -1075,6 +1075,15 @@ p:nth-child(3){
  }
 
 
+ .side{
+    text-align: center;
+    padding:1em;
+    border-radius: 1em;
+    box-shadow:10px 15px 10px rgba(49, 49, 49, .2);
+    background-color: #ffffff;
+ }
+
+
 
 
 
